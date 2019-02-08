@@ -1,0 +1,7 @@
+# Webサーバの設定
+ai-server:
+  # イメージの指定
+  image: frolvlad/alpine-python-machinelearning
+
+  volumes:
+    - ./data:/var/data
